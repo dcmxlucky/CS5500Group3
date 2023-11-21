@@ -1,0 +1,31 @@
+We use jest to test our react.js.
+
+Renders Header with Title and Button:
+Objective: Confirm that the component renders a header containing a title and a button.
+Test Case Explanation: This test ensures that the rendered component includes a header with the expected title and a button. It checks if the necessary UI elements are present and correctly displayed.
+
+Form Submission with Valid Inputs:
+Objective: Validate that the form submission functionality works correctly when provided with valid inputs.
+Test Case Explanation: This test simulates a form submission with valid input data. It then checks whether the form behaves as expected, handling the input correctly and triggering the appropriate actions upon submission.
+
+Category Filter Buttons Render and are Clickable:
+Objective: Confirm that category filter buttons are correctly rendered and respond to user clicks.
+Test Case Explanation: This test checks whether the category filter buttons are present in the UI and are clickable. It ensures that clicking a button triggers the expected behaviour, such as filtering content based on the selected category.
+
+Renders List of Facts:
+Objective: Verify that the component renders a list of facts.
+Test Case Explanation: This test ensures that the component correctly displays a list of facts. It checks if the rendered content matches the expected structure and that the facts are appropriately formatted and displayed.
+
+Renders Fact and Handles Votes(votesInteresting, votesMindblowing, votesFalse):
+Objective: Confirm that the component renders individual facts and handles user votes.
+Test Case Explanation: This test focuses on rendering a single fact and checking if the component can correctly handle user votes. It may simulate user interactions, such as upvoting or downvoting a fact, and verify that the component updates accordingly.
+
+Renders Loading Message:
+Objective: Ensure that the component displays a loading message during data retrieval.
+Test Case Explanation: This test checks if the component shows a loading message while fetching data. It helps ensure a positive user experience by providing feedback during asynchronous operations, such as data loading.
+
+Test database:
+
+Supabase Tests - Connect to Supabase and Fetch Data:
+Objective: Ensure the integration with Supabase is successful, and data retrieval from the "fact" table functions as expected.
+Test Case Explanation: This test verifies that the data fetched from the Supabase database table "fact" is not null. Additionally, it checks that the error object is null, indicating a successful data retrieval.
